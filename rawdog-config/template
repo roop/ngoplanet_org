@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="/stylesheets/style.css" type="text/css">
+    <link rel="shortcut icon" href="/images/favicon.png"/>
+    <link rel="icon" type="image/png" href="/images/favicon.png"/>
+    <link rel="alternate" type="application/rss+xml" title="NGO Planet" href="/rss20.xml" />
+    <title>NGO Planet</title>
+    <!-- www.ngoplanet.org -->
+</head>
+
+<body>
+
+<div id="titlebar">
+    <div class="titlebarline">
+        <ul>
+            <li> <a href="/summary.html"> summary </a> </li>
+            <li> <a href="/bloglist.html"> bloglist </a> </li>
+            <li> <a href="/addyourblog.html"> add your blog </a> </li>
+            <li> <a href="/about.html"> about ngoplanet </a> </li>
+            <li> <a href="/"> home </a> </li>
+        </ul>
+    </div>
+    <div class="titlebarline">
+        <a href="/rss20.xml"> <img src="/images/rss-icon-28x28.png" height="24"> </a>
+    </div>
+</div>
+
+<div id="page">
+    __items__
+</div>
+
+<div id="footer">
+The RSS icon is a property of FeedIcons.com.
+The OPML icon is a property of Ken Rossi.
+The NGO Planet logo is a property of Roopesh Chander. <br/>
+All other logos and content are properties of their respective owners.
+</div>
+
+</body>
+</html>

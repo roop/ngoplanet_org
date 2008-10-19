@@ -1,0 +1,34 @@
+
+<div class="channelgroup">
+    <div class="posthead">
+        __if_face__ 
+           __if_faceurl__
+               <a href="__faceurl__">
+           __endif__
+           __if_faceheight__ 
+              __if_facewidth__ 
+                 <img class="face" src="__face__" align="right" width="__facewidth__" height="__faceheight__" /> 
+              __else__
+                 <img class="face" src="__face__" align="right" height="__faceheight__" /> 
+              __endif__
+           __else__
+              <img class="face" src="__face__" align="right" /> 
+           __endif__
+           __if_faceurl__
+               </a>
+           __endif__
+        __endif__
+        <h3><a href="__blogurl__">__name__ __if_orgname__(__orgname__)__endif__</a></h3>
+        <h4><a href="__url__">__title_no_link__</a></h4>
+    </div>
+	<div class="entrygroup" class="item feed-__feed_hash__ feed-__feed-id__" id="item-__hash__">
+		<div class="entry">
+			<div class="blogcontent">
+				__description__
+			</div>
+			<p class="date">
+				posted <a href="__url__"><b>__date__</b></a> by <b>__name__</b>
+			</p>
+		</div>
+	</div>
+</div>
