@@ -1,0 +1,8 @@
+# to generate the summary of posts, override the summary template
+
+plugindirs none
+daysections true
+
+itemtemplate summary/itemtemplate
+outputfile  ../summary.html
+

@@ -1,0 +1,11 @@
+
+<div class="summarygroup">
+	<div class="summaryitem" class="item feed-__feed_hash__ feed-__feed-id__" id="item-__hash__">
+        <a href="__url__" style="color: #000080; text-decoration: underline; ">__title_no_link__</a>
+        posted by <a href="__blogurl__" style="color: #0000FF;">__name__</a>
+        __if_orgname__
+               __if_faceurl__ <a href="__faceurl__" style="color: #0000FF;"> __endif__ (__orgname__) __if_faceurl__ </a> __endif__
+        __endif__
+		at __date__
+	</div>
+</div>
