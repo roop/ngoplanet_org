@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="240.13815"
+   height="76.215385"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="/home/roop/Projects/ngoplanet/ngoplanet_org/svg"
+   sodipodi:docname="ngoplanetlogo.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/website/ngoplanetlogo.png"
+   inkscape:export-xdpi="89.682793"
+   inkscape:export-ydpi="89.682793"
+   version="1.0">
+  <defs
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3244">
+      <rect
+         style="opacity:0.85148513;fill:#ffffff;fill-opacity:1;stroke:#e67329;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect3246"
+         width="29.294424"
+         height="29.294424"
+         x="58.714973"
+         y="36.25666"
+         transform="matrix(0.904014,-0.4275028,0.4275028,0.904014,0,0)" />
+    </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5340"
+       id="linearGradient3265"
+       x1="68.578979"
+       y1="22.418119"
+       x2="107.04927"
+       y2="22.418119"
+       gradientUnits="userSpaceOnUse" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath13677">
+      <rect
+         style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:#e67329;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect13679"
+         width="11.070603"
+         height="12.987267"
+         x="-126.4954"
+         y="65.802216"
+         transform="matrix(-0.9571871,-0.28947,0.2894699,-0.9571871,0,0)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath13681">
+      <rect
+         style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:#e67329;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect13683"
+         width="11.764069"
+         height="13.703199"
+         x="116.16734"
+         y="-21.385191" />
+    </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5340"
+       id="linearGradient13689"
+       gradientUnits="userSpaceOnUse"
+       x1="113.44667"
+       y1="-20.748899"
+       x2="122.85715"
+       y2="-20.748899" />
+    <linearGradient
+       id="linearGradient5340">
+      <stop
+         id="stop5342"
+         offset="0"
+         style="stop-color:#25eed1;stop-opacity:1;" />
+      <stop
+         id="stop5344"
+         offset="1"
+         style="stop-color:#5f82cb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient14145">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop14147" />
+      <stop
+         id="stop14159"
+         offset="0.20454545"
+         style="stop-color:#dbe2f5;stop-opacity:1;" />
+      <stop
+         id="stop14155"
+         offset="0.5"
+         style="stop-color:#c5cfed;stop-opacity:1;" />
+      <stop
+         style="stop-color:#dae0f4;stop-opacity:0.49803922;"
+         offset="0.90909094"
+         id="stop14157" />
+      <stop
+         style="stop-color:#fcfcfc;stop-opacity:0;"
+         offset="1"
+         id="stop14149" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3144">
+      <stop
+         style="stop-color:#3333a5;stop-opacity:1;"
+         offset="0"
+         id="stop3146" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="1"
+         id="stop3148" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14145"
+       id="linearGradient14151"
+       x1="256.42856"
+       y1="438.36218"
+       x2="256.42856"
+       y2="452.36218"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.9876677,0,0,1,1766.0011,-63.63961)" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="45.735024"
+       height="44.563522"
+       patternTransform="translate(132.96148,344.02986)"
+       id="pattern13542">
+      <path
+         inkscape:export-ydpi="119.57705"
+         inkscape:export-xdpi="119.57705"
+         inkscape:export-filename="/home/roop/ngoplanetlogo.png"
+         id="path10143"
+         d="M 26.242087,22.950977 C 26.888057,23.610757 29.059547,24.219617 29.059547,26.548167 C 29.059547,28.378617 30.468277,29.745457 30.468277,26.368307 C 30.468277,23.960977 32.627937,23.784127 33.814007,24.389847 C 34.827957,24.907677 35.883867,25.368037 36.983647,25.648867 C 39.175007,26.208437 37.481157,22.783687 39.272837,22.051677 C 40.852627,21.406237 42.273507,19.461917 41.738107,18.094767 C 40.945897,16.071857 41.338977,14.701407 43.146837,13.778127 C 44.844337,12.911217 45.723127,11.174077 45.259927,9.2816465 C 44.986677,8.1652765 43.636717,4.8203165 42.794657,4.6052965 C 40.997047,4.1462765 39.307877,3.2652965 37.511927,2.8066965 C 35.509047,2.2952665 34.469717,1.9724865 32.581377,1.0081065 C 31.190237,0.2976465 28.638907,0.1437565 27.650827,0.6483865 C 26.047207,1.4673465 24.637057,2.0975865 22.896367,2.9865565 C 21.768737,3.5624365 19.394277,4.7351465 17.789717,5.1448665 C 16.016447,5.5976765 14.469587,5.4081265 12.683087,5.8643165 C 11.532727,6.1580565 8.7807569,6.6478865 9.1612669,8.2024865 C 9.3355369,8.9144965 6.3175869,11.453347 5.9916269,11.619817 C 3.1452169,13.073477 4.5654469,13.580457 6.3438069,15.396877 C 7.2517669,16.324267 9.4125369,16.630127 10.922177,17.015607 C 13.604697,17.700587 8.7643969,18.994067 7.9286269,18.994067 C 5.8816369,18.994067 5.2050369,17.735047 3.1741669,17.735047 C 1.1096569,17.735047 1.6531269,19.043637 0.70888695,20.972517 C -0.17485305,22.777837 0.81032695,24.444537 1.2371669,26.188447 C 1.7148569,28.140107 2.0012669,29.490117 2.4698069,31.404377 C 2.8216269,32.841787 5.2882569,33.562947 6.6959869,33.922417 C 8.7873669,34.456447 9.3263869,36.249387 10.569987,37.519607 C 11.918467,38.896947 12.810197,41.066767 14.443997,42.735527 C 15.838337,44.159727 17.808377,45.329747 17.085357,42.375817 C 16.920747,41.703257 17.261447,38.242457 17.261447,37.699467 C 17.261447,35.625827 18.807397,34.681557 20.078907,33.382837 C 21.848987,31.574877 18.925497,29.969107 17.613637,30.505077 C 15.886037,31.210907 15.440577,31.702847 13.563537,29.785647 C 11.959057,28.146817 10.684187,27.559197 9.8656269,25.469007 C 8.6765869,22.432797 9.8656269,20.768697 9.8656269,22.771117 C 9.8656269,24.270087 11.724917,26.238687 13.035267,26.907887 C 15.095757,27.960187 15.464587,28.359007 14.443997,28.706487 C 14.337817,28.742637 17.549397,30.031117 19.374547,28.166907 C 20.679997,26.833517 22.348017,23.210977 19.902817,24.209997 C 18.307407,24.861817 16.702477,23.818917 15.500537,22.591257 C 12.990377,20.027377 13.546087,20.334097 15.852717,21.512097 C 17.503607,22.355207 18.986317,23.130837 20.959367,23.130837 C 22.698157,23.130837 24.590987,23.513117 26.242087,22.950977 z "
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.70470685px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </pattern>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5340"
+       id="linearGradient17761"
+       gradientUnits="userSpaceOnUse"
+       x1="113.44667"
+       y1="-20.748899"
+       x2="122.85715"
+       y2="-20.748899" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5340"
+       id="linearGradient21142"
+       gradientUnits="userSpaceOnUse"
+       x1="113.44667"
+       y1="-20.748899"
+       x2="122.85715"
+       y2="-20.748899" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="123.93746"
+     inkscape:cy="72.118511"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="990"
+     inkscape:window-height="619"
+     inkscape:window-x="199"
+     inkscape:window-y="89" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-132.96148,-318.3358)">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.70470685px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 148.8142,346.83656 C 145.35675,348.61277 139.05003,351.67464 135.43129,359.06701 C 132.67367,364.70029 133.33974,374.19723 137.54438,378.49185 C 143.07172,384.13749 143.19296,388.57097 151.63166,392.88062 C 156.9129,395.57775 167.44991,393.51778 172.76259,392.16119 C 178.85049,390.60664 187.49281,383.7789 188.96296,377.77242 C 190.85934,370.02457 189.53226,363.10772 186.14551,356.18926 C 183.72965,351.25415 168.80354,345.28604 163.60585,343.95881 C 156.66813,342.18726 150.54141,343.89628 146.70112,350.43375"
+       id="path10108"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <rect
+       style="stroke:none;fill:url(#pattern13542)"
+       width="45.735024"
+       height="44.563522"
+       x="132.96148"
+       y="344.02986"
+       id="rect13545"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.70470685px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 169.94513,370.93775 C 169.97244,370.93775 173.67073,373.84378 172.23432,372.37662 C 171.28193,371.40386 171.4831,371.46138 169.94513,370.93775 z "
+       id="path10145"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.70470685px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 170.64949,373.27592 C 169.55059,372.1535 173.72018,374.56021 175.22787,374.17523 C 178.493,373.34147 177.00479,374.35508 174.87568,374.35508 C 173.52015,374.35508 170.09807,376.09206 170.64949,373.27592 z "
+       id="path10147"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.70470685px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 175.75614,370.75789 C 173.6971,370.75789 174.39824,374.5071 175.05177,371.83705 C 175.15443,371.41763 175.52135,371.11761 175.75614,370.75789 z "
+       id="path10149"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.70470685px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 177.69314,371.11761 C 177.79678,370.69418 177.03879,372.068 177.34095,372.37662 C 177.64311,372.68525 177.77694,371.5456 177.69314,371.11761 z "
+       id="path10151"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.70470685px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 177.34095,360.68575 C 177.70169,361.05422 178.18458,364.3527 178.92578,365.3621 C 179.63335,366.32572 177.68511,361.3888 177.34095,360.68575 z "
+       id="path10153"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.70470685px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 178.57359,357.80799 C 178.97514,358.35486 178.62864,360.26981 179.10186,359.78645 C 179.5751,359.3031 178.57359,358.49157 178.57359,357.80799 z "
+       id="path10155"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.70470685px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 176.28441,375.97382 C 176.74407,375.50432 179.28876,374.7148 181.03886,374.7148 C 182.44126,374.7148 178.02671,375.39403 177.16486,375.6141 C 176.85821,375.69241 176.57789,375.85392 176.28441,375.97382 z "
+       id="path10157"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.70470685px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 182.62369,385.8661 C 182.24757,385.8661 182.31897,383.11112 179.27795,383.88764 C 176.28526,384.65183 177.78709,382.08664 179.10186,381.54947 C 180.50951,380.97436 182.1116,378.65519 182.97587,377.77242 C 183.8394,376.89041 185.36043,379.83331 187.37815,377.77242 C 189.50554,375.59949 188.53719,377.92274 187.90642,379.21129 C 187.10238,380.85377 186.28098,382.3104 185.08896,383.52793 C 184.05675,384.58223 184.24507,385.31407 182.62369,385.8661 z "
+       id="path10161"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.61461389px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 177.14179,327.92897 C 175.4255,327.66644 167.90511,326.77 163.17315,326.77 C 158.50635,326.77 152.36075,327.86588 148.20675,329.47427 C 141.54681,332.05296 150.1934,334.3982 154.6922,335.26915 C 158.92531,336.08866 165.65218,335.27213 169.6586,334.4965 C 176.08924,333.25155 182.46096,333.07782 177.14179,327.92897 z "
+       id="path10163"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.61461389px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 140.72356,323.29307 C 140.96512,323.24632 143.30241,324.13113 145.21348,325.61103"
+       id="path10165"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.61461389px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 146.21124,320.20248 C 146.75198,320.0978 148.46089,320.98238 149.70341,322.90676"
+       id="path10167"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.61461389px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 157.68549,318.65718 C 158.65345,318.46978 157.68549,320.20248 157.68549,320.97513"
+       id="path10171"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.61461389px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 166.66532,318.65718 C 167.63329,318.46978 166.66532,320.20248 166.66532,320.97513"
+       id="path10173"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.61461389px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 174.14852,320.20248 C 175.43915,319.95261 174.14852,322.26288 174.14852,323.29307"
+       id="path10175"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.61461389px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 183.62724,321.36145 C 185.56989,320.98536 180.63396,323.42185 179.13731,324.45205"
+       id="path10177"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.61461389px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 185.11492,325.99735 C 185.11492,325.99735 185.11492,325.99735 185.11492,325.99735 z "
+       id="path10179"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.61461389px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 189.6138,325.99735 C 191.92367,325.55017 185.25795,327.49073 183.12835,328.3153"
+       id="path10181"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.61461389px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 135.23587,329.08796 C 135.52809,329.03138 138.5726,330.12025 141.22243,330.63324"
+       id="path10183"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.61461389px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 137.23139,336.0418 C 137.26819,336.03468 139.59512,336.55 142.22019,336.0418"
+       id="path10185"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.61461389px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 148.20675,337.20077 C 149.46677,336.95684 146.54382,338.74607 145.71236,339.51872"
+       id="path10187"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.61461389px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 153.69444,337.5871 C 153.69546,337.5869 153.49694,338.81056 153.19556,340.6777"
+       id="path10189"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.61461389px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 162.17539,338.35975 C 163.19573,338.16221 162.84057,339.90505 163.17315,340.6777"
+       id="path10191"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.61461389px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 169.6586,338.74607 C 170.79936,338.52522 171.32153,340.03382 172.15299,340.6777"
+       id="path10193"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.61461389px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 175.14628,337.5871 C 176.20568,337.38201 178.2888,339.35749 179.13731,339.90505"
+       id="path10195"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.61461389px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 179.13731,335.26915 C 179.51297,335.19642 181.45505,335.3939 184.12611,336.42812"
+       id="path10197"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient3265);stroke-width:5.9000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2264"
+       sodipodi:cx="78.791901"
+       sodipodi:cy="36.819435"
+       sodipodi:expansion="1"
+       sodipodi:revolution="3"
+       sodipodi:radius="25.434992"
+       sodipodi:argument="-18.730127"
+       sodipodi:t0="0"
+       d="M 78.791901,36.819435 C 80.058087,36.971377 79.211778,38.601191 78.539363,38.92392 C 76.717162,39.798493 74.906277,38.007146 74.582931,36.31436 C 74.004541,33.286363 76.697603,30.762417 79.549513,30.505981 C 83.734805,30.129651 87.05606,33.827168 87.209839,37.829585 C 87.414802,43.164177 82.68008,47.304699 77.529213,47.341858 C 71.047373,47.388619 66.078566,41.60279 66.164993,35.304211 C 66.269668,27.675787 73.113737,21.874045 80.559663,22.088043 C 89.334428,22.340232 95.971842,30.246683 95.627778,38.839735 C 95.230542,48.760753 86.259094,56.235592 76.519064,55.759797 C 65.451822,55.219168 57.138362,45.180965 57.747055,34.294061 C 58.429916,22.0806 69.536114,12.927666 81.569812,13.670104 C 94.929498,14.494352 104.92254,26.669453 104.04572,39.849884"
+       transform="matrix(0.904014,0.4275028,-0.4275028,0.904014,130.25401,285.97408)"
+       clip-path="url(#clipPath3244)"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <text
+       xml:space="preserve"
+       style="font-size:34.47122955px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="182.66112"
+       y="361.74777"
+       id="text10201"
+       transform="scale(1.0326718,0.9683619)"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812"><tspan
+         sodipodi:role="line"
+         id="tspan10203"
+         x="182.66112"
+         y="361.74777"
+         style="font-style:normal;font-weight:bold;font-family:Ringbearer">ngoPlanet</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="196.42857"
+       y="374.50504"
+       id="text10205"><tspan
+         sodipodi:role="line"
+         id="tspan10207"
+         x="196.42857"
+         y="374.50504" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.04266167px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="353.50937"
+       y="348.29199"
+       id="text10213"
+       transform="scale(0.9584219,1.0433818)"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812"><tspan
+         sodipodi:role="line"
+         id="tspan10215"
+         x="353.50937"
+         y="348.29199"
+         style="font-family:RattyTatty">.org</tspan></text>
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.61461389px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1.0"
+       d="M 162.34322,328.30781 C 157.7271,328.64965 151.18871,329.2811 148.10108,331.58275 C 156.66042,335.92398 168.01668,333.76933 177.02359,331.22678 C 176.83186,327.78797 169.98695,329.18935 166.88193,328.42647 C 165.37219,328.36304 163.85659,328.23769 162.34322,328.30781 z "
+       id="path2214"
+       inkscape:export-filename="/home/roop/Projects/ngoplanet/ngoplanet_org/images/ngoplanetlogo.png"
+       inkscape:export-xdpi="120.44812"
+       inkscape:export-ydpi="120.44812" />
+    <text
+       inkscape:export-ydpi="119.57705"
+       inkscape:export-xdpi="119.57705"
+       inkscape:export-filename="/home/roop/ngoplanetlogo.png"
+       transform="scale(1.0326718,0.9683619)"
+       id="text5365"
+       y="478.29218"
+       x="374.95013"
+       style="font-size:34.47122955px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-weight:bold;font-family:Ringbearer"
+         y="478.29218"
+         x="374.95013"
+         id="tspan5367"
+         sodipodi:role="line">n</tspan></text>
+    <path
+       clip-path="url(#clipPath13681)"
+       transform="matrix(3.5056381e-3,-3.5132193,2.8431628,1.0268004e-2,369.22796,688.75982)"
+       d="M 122.85714 -20.748899 A 7.6785712 7.6785712 0 1 1  107.5,-20.748899 A 7.6785712 7.6785712 0 1 1  122.85714 -20.748899 z"
+       sodipodi:ry="7.6785712"
+       sodipodi:rx="7.6785712"
+       sodipodi:cy="-20.748899"
+       sodipodi:cx="115.17857"
+       id="path17757"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#e67329;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:type="arc" />
+  </g>
+</svg>
