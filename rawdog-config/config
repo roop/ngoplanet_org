@@ -248,11 +248,13 @@ feed 3h http://blog.payir.org/feeds/posts/default
     define_name     Senthil
     define_orgname  Payir
     define_blogurl  http://blog.payir.org
+    define_face         /hackergotchi/payir.jpg
+    define_faceheight   100
+    define_faceurl      http://www.payir.prg
 
 feed 3h http://www.noellehuskins.com/?feed=atom
     define_name     Noelle Huskins
     define_blogurl  http://www.noellehuskins.com/?page_id=10
-    keepmin         2
 
 feed 3h http://bridgetononprofit.blogspot.com/feeds/posts/default
     define_name     Shubda Garani
@@ -262,11 +264,15 @@ feed 3h http://bridgetononprofit.blogspot.com/feeds/posts/default
 feed 3h http://operationshanti.blogspot.com/feeds/posts/default
     define_name     Operation Shanti
     define_blogurl  http://operationshanti.blogspot.com/
+    define_face         /hackergotchi/operation-shanti.jpg
+    define_faceurl      http://www.operation-shanti.org
 
 feed 3h http://ngoreviews.blogspot.com/feeds/posts/default
     define_name     Saberi Roy
     define_orgname  NGO Reviews
     define_blogurl  http://ngoreviews.blogspot.com/
+    define_face         /hackergotchi/saberiroy.jpg
+    define_faceheight   70
 
 feed 3h http://aifde.blogspot.com/feeds/posts/default
     define_name     DElight
