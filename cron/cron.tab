@@ -1,0 +1,3 @@
+
+# run once every 3 hours everyday
+0,3,6,9,12,15,18,21 * * * *   ./cron/runrawdog.sh > $HOME/tmp/ngoplanetcron.log

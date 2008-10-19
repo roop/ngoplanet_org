@@ -1,0 +1,8 @@
+#!/bin/sh
+date
+echo "frontpage"
+./rawdog-2.11/rawdog -d rawdog-config/ -c config --update --write --verbose
+echo "bloglist"
+./rawdog-2.11/rawdog -d rawdog-config/ -c bloglist/config --write --verbose
+echo "summary"
+./rawdog-2.11/rawdog -d rawdog-config/ -c summary/config --write --verbose
