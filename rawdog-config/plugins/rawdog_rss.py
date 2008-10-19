@@ -82,7 +82,7 @@ class RSS_Feed:
         head.newChild(None, 'dateCreated', strftime("%a, %d %b %Y %H:%M:%S", gmtime()) + " +0000")
         head.newChild(None, 'dateModified', strftime("%a, %d %b %Y %H:%M:%S", gmtime()) + " +0000")        
         head.newChild(None, 'ownerName', "Roopesh Chander")
-        head.newChild(None, 'ownerEmail', "roopesh.chander@gmail.com")
+        head.newChild(None, 'ownerEmail', "roop@forwardbias.in")
 
         return self.opmlxml.newChild(None, 'body', None)
 
