@@ -122,7 +122,13 @@ itemtemplate itemtemplate
 # (You will probably want to make this an absolute path, else rawdog will write
 # to a file in your ~/.rawdog directory.)
 outputfile ../index.html
+
 #outputfile /home/you/public_html/rawdog.html
+
+define outputxml  ../rss20.xml
+define outputfoaf ../foafroll.xml
+define outputopml ../opml.xml
+
 
 # Whether to use a <meta http-equiv="Refresh" ...> tag in the generated
 # HTML to indicate that the page should be refreshed automatically. If
