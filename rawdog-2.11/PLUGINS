@@ -1,0 +1,327 @@
+# Writing rawdog plugins
+
+## Introduction
+
+As provided, rawdog provides a fairly small set of features. In order to
+make it do more complex jobs, rawdog can be extended using plugin
+modules written in Python. This document is intended for developers who
+want to extend rawdog by writing plugins.
+
+Extensions work by registering hook functions which are called by
+various bits of rawdog's core as it runs. These functions can modify
+rawdog's internal state in various interesting ways. An arbitrary number
+of functions can be attached to each hook; they are called in the order
+they were attached. Hook functions take various arguments depending on
+where they're called from, and returns a boolean value indicating
+whether further functions attached to the same hook should be called.
+
+The "plugindirs" config option gives a list of directories to search for
+plugins; all Python modules found in those directories will be loaded by
+rawdog. In practice, this means that you need to call your file
+something ending in ".py" to have it recognised as a plugin.
+
+## The plugins module
+
+All plugins should import the `rawdoglib.plugins` module, which provides
+the functions for registering and calling hooks, along with some
+utilities for plugins. Many plugins will also want to import the
+`rawdoglib.rawdog` module, which contains rawdog's core functionality,
+much of which is reusable.
+
+### rawdoglib.plugins.attach_hook(hook_name, function)
+
+The attach_hook function adds a hook function to the hook of the given
+name.
+
+### rawdoglib.plugins.Box
+
+The Box class is used to pass immutable types by reference to hook
+functions; this allows several plugins to modify a value. It contains a
+single `value` attribute for the value it is holding.
+
+## Plugin storage
+
+Since some plugins will need to keep state between runs, the Rawdog
+object that most hook functions are provided with has a
+`get_plugin_storage` method, which when called with a plugin identifier
+for your plugin as an argument will give you a reference to a dictionary
+which will be persisted in the rawdog state file. The dictionary is empty to
+start with; you may store any pickleable objects you like in it. Plugin
+identifiers should be strings based on your email address, in order to be
+globally unique -- for example, `org.offog.ats.archive`.
+
+## Hooks
+
+Most hook functions are called with "rawdog" and "config" as their first
+two arguments; these are references to the aggregator's Rawdog and
+Config objects.
+
+If you need a hook that doesn't currently exist, please contact me.
+
+The following hooks are supported:
+
+### startup(rawdog, config)
+
+Run when rawdog starts up, after the state file and config file have
+been loaded, but before rawdog starts processing command-line arguments.
+
+### shutdown(rawdog, config)
+
+Run just before rawdog saves the state file and exits.
+
+### config_option(config, name, value)
+
+* name: the option name
+* value: the option value
+
+Called when rawdog encounters a config file option that it doesn't
+recognise. The rawdoglib.rawdog.parse_* functions will probably be
+useful when dealing with config options. You can raise ValueError to
+have rawdog print an appropriate error message.  You should return False
+from this hook if name is an option you recognise.
+
+Note that using config.log in this hook will probably not do what you
+want, because the verbose flag may not yet have been turned on.
+
+### config_option_arglines(config, name, value, arglines)
+
+* name: the option name
+* value: the option value
+* arglines: a list of extra indented lines given after the option (which
+  can be used to supply extra arguments for the option)
+
+As config_option for options that can handle extra argument lines.
+If the options you are implementing should not have extra arguments,
+then use the config_option hook instead.
+
+### output_filter(rawdog, config, articles)
+
+* articles: the mutable list of Article objects
+
+Called before rawdog sorts the list of articles to write. This hook can
+be used to remove articles that shouldn't be written.
+
+### output_sort(rawdog, config, articles)
+
+* articles: the mutable list of Article objects
+
+Called after rawdog has sorted the list of articles to write. This hook
+can be used to reorder (or completely resort) the list of articles to
+write.
+
+### output_write(rawdog, config, articles)
+
+* articles: the mutable list of Article objects
+
+Called immediately before output_sorted_filter; this hook is here for
+backwards compatibility, and should not be used in new plugins.
+
+### output_sorted_filter(rawdog, config, articles)
+
+* articles: the mutable list of Article objects
+
+Called after rawdog sorts the list of articles to write, but before it
+removes duplicate and excessively old articles. This hook can be used to
+implement alternate duplicate-filtering methods. If you return False
+from this hook, then rawdog will not do its usual duplicate-removing
+filter pass.
+
+### output_write_files(rawdog, config, articles, article_dates)
+
+* articles: the mutable list of Article objects
+* article_dates: a dictionary mapping Article objects to the dates that
+  were used to sort them
+
+Called when rawdog is about to write its output to files. This hook can
+be used to implement alternative output methods.
+
+If you return False from this hook, then rawdog will not write any
+output itself (and the later output_ hooks will thus not be called). I
+would suggest not returning False here unless you plan to call the
+rawdog.write_output_file method from your hook implementation; failure
+to do so will most likely break other plugins.
+
+### output_items_begin(rawdog, config, f)
+
+* f: a writable file object (__items__)
+
+Called before rawdog starts expanding the items template. This set of
+hooks can be used to implement alternative date (or other section)
+headings.
+
+### output_items_heading(rawdog, config, f, article, date)
+
+* f: a writable file object (__items__)
+* article: the Article object about to be written
+* date: the Article's date for sorting purposes
+
+Called before each item is written. If you return False from this hook,
+then rawdog's normal time-based section headings will not be written.
+
+### output_items_end(rawdog, config, f)
+
+* f: a writable file object (__items__)
+
+Called after all items are written.
+
+### output_bits(rawdog, config, bits)
+
+* bits: a dictionary of template parameters
+
+Called before expanding the main template. This hook can be used to add
+extra template parameters.
+
+### output_item_bits(rawdog, config, feed, article, bits)
+
+* feed: the Feed containing this article
+* article: the Article being templated
+* bits: a dictionary of template parameters
+
+Called before expanding the item template for an article. This hook can
+be used to add extra template parameters.
+
+### pre_update_feed(rawdog, config, feed)
+
+* feed: the Feed about to be updated
+
+Called before a feed's content is fetched. This hook can be used to
+perform extra actions before fetching a feed. Note that if `usethreads`
+is set to a positive number in the config file, this hook may be called
+from a worker thread.
+
+### mid_update_feed(rawdog, config, feed, content)
+
+* feed: the Feed being updated
+* content: the feedparser output from the feed (may be None)
+
+Called after a feed's content has been fetched, but before rawdog's
+internal state has been updated. This hook can be used to modify
+feedparser's output.
+
+### post_update_feed(rawdog, config, feed, seen_articles)
+
+* feed: the Feed that has been updated
+* seen_articles: a boolean indicating whether any articles were read
+  from the feed
+
+Called after a feed is updated.
+
+### article_seen(rawdog, config, article, ignore)
+
+* article: the Article that has been received
+* ignore: a Boxed boolean indicating whether to ignore the article
+
+Called when an article is received from a feed. This hook can be used to
+modify or ignore incoming articles.
+
+### article_updated(rawdog, config, article, now)
+
+* article: the Article that has been updated
+* now: the current time
+
+Called after an article has been updated (when rawdog receives an
+article from a feed that it already has).
+
+### article_added(rawdog, config, article, now)
+
+* article: the Article that has been added
+* now: the current time
+
+Called after a new article has been added.
+
+### article_expired(rawdog, config, article, now)
+
+* article: the Article that will be expired
+* now: the current time
+
+Called before an article is expired.
+
+### fill_template(template, bits, result)
+
+* template: the template string to fill
+* bits: a dictionary of template arguments
+* result: a Boxed Unicode string for the result of template expansion
+
+Called whenever template expansion is performed. If you set the value
+inside result to something other than None, then rawdog will treat that
+value as the result of template expansion (rather than performing its
+normal expansion process); you can thus use this hook either for
+manipulating template parameters, or for replacing the template system
+entirely.
+
+### mxtidy_args(config, args, baseurl, inline)
+
+* args: a dictionary of keyword arguments for mx.Tidy.tidy
+* baseurl: the URL at which the HTML was originally found
+* inline: a boolean indicating whether the output should be inline HTML
+  or a block element
+
+When HTML is being sanitised by rawdog and the "tidyhtml" option is
+enabled, this hook will be called just before mx.Tidy.tidy is run. It
+can be used to add or modify mx.Tidy options; for example, to make it
+produce XHTML output.
+
+### clean_html(config, html, baseurl, inline)
+
+* html: a Boxed Unicode string containing the HTML being cleaned
+* baseurl: the URL at which the HTML was originally found
+* inline: a boolean indicating whether the output should be inline HTML
+  or a block element
+
+Called whenever HTML is being sanitised by rawdog (after its existing
+HTML sanitisation processes). You can use this to implement extra
+sanitisation passes. You'll need to update the boxed value with the new,
+cleaned string.
+
+### add_urllib2_handlers(rawdog, config, feed, handlers)
+
+* feed: the Feed to which the request will be made
+* handlers: the mutable list of urllib2 *Handler objects that will be
+  passed to feedparser
+
+Called before feedparser is used to fetch feed content. This hook can be
+used to add additional urllib2 handlers to cope with unusual protocol
+requirements; use `handlers.append` to add extra handlers.
+
+### feed_fetched(rawdog, config, feed, feed_data, error, non_fatal)
+
+* feed: the Feed that has just been fetched
+* feed_data: the data returned from feedparser.parse
+* error: the error string if an error occurred, or None if no error
+  occurred
+* non_fatal: if error is not None, a boolean indicating whether the
+  error was fatal
+
+Called after feedparser has been called to fetch the feed. This hook can
+be used to manipulate the received feed data or implement custom error
+handling.
+
+## Examples
+
+### backwards.py
+
+This is probably the simplest useful example plugin: it reverses the
+sort order of the output.
+
+	import rawdoglib.plugins
+	
+	def backwards(rawdog, config, articles):
+		articles.reverse()
+		return False
+	
+	rawdoglib.plugins.attach_hook("output_sort", backwards)
+
+### option.py
+
+This plugin shows how to handle a config file option.
+
+	import rawdoglib.plugins
+	
+	def option(config, name, value):
+		if name == "myoption":
+			print "Test plugin option:", value
+			return False
+		else:
+			return True
+	rawdoglib.plugins.attach_hook("config_option", option)
+

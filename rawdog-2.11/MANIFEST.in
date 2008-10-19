@@ -1,0 +1,12 @@
+include README
+include PLUGINS
+include NEWS
+include COPYING
+include COPYING.LGPL
+include config
+include style.css
+include rawdog
+include MANIFEST.in
+include rawdog.1
+recursive-include rawdoglib *.py
+
