@@ -1,0 +1,266 @@
+/* Stylesheet for NGO Planet 
+ * By Roopesh Chander, modified from the planetkde.org css as of Oct 2008 */
+
+/**
+ * General page layout, moving all elements to the right position...
+ */
+html {
+    min-height: 101%;
+    font-size: 9pt;
+    font-family: "Liberation Sans", "Bitstream Vera Sans", sans-serif;
+    color: #374153;
+    background: white;
+    text-align: justify;
+}
+
+body {
+    width: 810px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/**
+ * General textlayout
+ */
+a , a:link, a:visited { cursor: pointer; color: #4a7ad8; text-decoration: none; border-bottom: 0;}
+a:hover { text-decoration: underline; }
+
+img { border: 0; }
+
+td { padding-right: 15px; }
+
+h2 
+{
+    font-family: "Verdana", "Lucida Grande", sans-serif;
+    margin-top: 10px;
+    border-bottom: thin dotted #374153;
+}
+/**
+ * Hide dynamic controllers generally - unhide by javascript, so only when
+ * dynamic effects can be used anyway!
+ */
+*.dynamic {
+    visibility: hidden;
+    cursor: pointer;
+}
+
+#titlebar {
+    padding: 0;
+    margin: 0;
+}
+
+#page {
+    padding: 0;
+    margin: 0;
+}
+
+#titlebar {
+    width: 100%;
+    padding: 0;
+    margin-top: 5px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    margin-left: 20px;
+    float: left;
+    background: white url(/images/ngoplanetlogo.png) no-repeat top left;;
+}
+
+#titlebar ul li
+{
+        display: block;
+        width: auto;
+        float: right;
+        height: 20px;
+        line-height: 20px;
+
+        font-size: 11px;
+        font-weight: bold;
+        list-style: none;
+        margin-left: 0;
+        margin-right: 5px;
+        margin-top: 5px;
+        padding-left: 10px;
+}
+
+#titlebar a
+{
+        cursor: pointer;
+        color: #374153;
+}
+#titlebar a:hover
+{
+        background-color: #e8e8fe;
+        text-decoration: none;
+}
+
+#titlebar img
+{
+    float: right;
+    padding-left: 10px;
+}
+
+.titlebarline
+{
+        height: 40px;
+        text-align: right;
+        float: right;
+        padding-right: 40px;
+}
+
+#header {
+    height: 95px;
+    width: 800px;
+	padding: 45px 0 0 8px;
+    margin: 0;
+	display: block;
+	float: right;
+}
+
+div.day h2 {
+	margin: 10px 0;
+    padding: 0 0 0 20px;
+}
+
+#footer {
+    clear: both;
+    width: 100%;
+    margin: 0;
+    margin-top:40px;
+	font-size: 0.8em;
+    text-align: center;
+	float: left;
+    border-top: thin dotted #cccccc;
+    border-bottom: thin dotted #cccccc;
+}
+
+/**
+ * Header layout
+ */
+#header h1 {
+    font-style: normal;
+    font-size: 12.4pt;
+    font-weight: lighter;
+    font-stretch: narrower;
+    word-spacing: 0.27em;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+#header p {
+    margin: 0;
+    padding: 0;
+    font-size: 9pt;
+}
+
+#toplinks {
+	padding: 0 0 0 20px;
+    margin: 22px 0 0 0;
+}
+
+/* Content Layout */
+.face {
+    margin-right: 20px;
+}
+
+.daygroup h2 {
+    text-align: right;
+    width: 100%;
+    margin-bottom: -30px;
+}
+
+.channelgroup {
+    padding-bottom: 30px;
+    /*margin: 0 0 12px 0;*/
+}
+
+.channelgroup:last-child
+{
+background: none;
+}
+.channelgroup h3 {
+    padding: 20px 0px 0px 20px;
+    margin: 0 29px 0 0;
+}
+.channelgroup h3 a {
+    color: #333D4E; /*wee bit darker*/
+    margin: 0px;
+    margin-left: 0px;
+}
+.channelgroup h4 {
+    font-size: 200%;
+    font-weight: lighter;
+    margin: 0px;
+    margin-left: 20px;
+    margin-right: 0px;
+    text-align: left;
+    background: #e6e6ff;
+}
+.channelgroup h4 a {
+    color: #455269; /*wee bit lighter*/
+}
+.channelgroup posthead {
+}
+.entrygroup {
+    margin: 0px 38px 0px 28px;
+}
+.entry {
+    margin-left: 20px;
+}
+
+.entry p:first-child:first-letter {
+    font-size: 250%;
+}
+.entry hr {
+    width: 90%;
+    height: 0;
+    border: 1px dashed #374153;
+}
+.entry p.date {
+    font-size: 7pt;
+    font-family: "Verdana", "Lucida Grande", sans-serif;
+    text-align: right;
+}
+.entry img {
+    padding: 0;
+    margin: 5px;
+    max-width: 100%;
+}
+
+.entry blockquote {
+    border: 1px dashed #374153;
+    background-color: #cccccc;
+    margin: 7px 20px 7px 20px;
+    padding: 0px;
+    overflow: auto;
+}
+
+.entry blockquote p:first-child:first-letter {
+    font-size: 8pt;
+    margin: 0;
+    padding: 0;
+}
+.entry code {
+    margin: 0;
+    padding: 0;
+    display: block;
+    white-space: nowrap;
+}
+
+.summarygroup {
+    padding-bottom: 10px;
+}
+
+.summaryitem {
+    margin: 0px 38px 0px 28px;
+}
+
+.summaryitem a {
+        cursor: pointer;
+        color: darkblue;
+}
+.summaryitem a:hover {
+        background-color: #e8e8fe;
+        text-decoration: none;
+}
+
