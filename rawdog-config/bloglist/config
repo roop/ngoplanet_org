@@ -1,0 +1,8 @@
+# to generate the summary of posts, override the summary template
+
+plugindirs none
+daysections false
+
+template bloglist/template
+outputfile  ../bloglist.html
+
