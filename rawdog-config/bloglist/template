@@ -29,7 +29,7 @@
 
 <div id="page">
     <h3>Bloglist</h3>
-    <div align="left"><small><a href="/opml.xml"><img src="/images/opml-icon-32x32.png" height="16" width="16"> Import as OPML </a></small></div>
+    <div align="left"><small><a href="/opml.xml"><img src="/images/opml-icon-32x32.png" height="16" width="16"> Export bloglist as OPML </a></small></div>
     <br/>
     __feeds__
 </div>
