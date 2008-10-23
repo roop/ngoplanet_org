@@ -4,5 +4,5 @@ plugindirs none
 daysections true
 
 itemtemplate summary/itemtemplate
-outputfile  ../summary.html
+outputfile  ../public_html/summary.html
 

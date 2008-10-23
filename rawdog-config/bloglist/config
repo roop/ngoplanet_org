@@ -4,5 +4,5 @@ plugindirs none
 daysections false
 
 template bloglist/template
-outputfile  ../bloglist.html
+outputfile  ../public_html/bloglist.html
 
