@@ -250,28 +250,28 @@ changeconfig true
 #feed 3h http://proxyfeed.example.com/proxied.rss http_proxy=http://localhost:1234/
 #feed 3h http://dupsfeed.example.com/duplicated.rss allowduplicates=true
 
-feed 3h http://blog.payir.org/feeds/posts/default
-    define_name     Senthil
-    define_orgname  Payir
-    define_blogurl  http://blog.payir.org
-    define_face         /hackergotchi/payir.jpg
-    define_faceheight   100
-    define_faceurl      http://www.payir.prg
-
-feed 3h http://www.noellehuskins.com/?feed=atom
-    define_name     Noelle Huskins
-    define_blogurl  http://www.noellehuskins.com/?page_id=10
-
-feed 3h http://bridgetononprofit.blogspot.com/feeds/posts/default
-    define_name     Shubda Garani
-    define_orgname  Bridges to the non-profit world
-    define_blogurl  http://bridgetononprofit.blogspot.com/
-
-feed 3h http://operationshanti.blogspot.com/feeds/posts/default
-    define_name     Operation Shanti
-    define_blogurl  http://operationshanti.blogspot.com/
-    define_face         /hackergotchi/operation-shanti.jpg
-    define_faceurl      http://www.operation-shanti.org
+# feed 3h http://blog.payir.org/feeds/posts/default
+#     define_name     Senthil
+#     define_orgname  Payir
+#     define_blogurl  http://blog.payir.org
+#     define_face         /hackergotchi/payir.jpg
+#     define_faceheight   100
+#     define_faceurl      http://www.payir.prg
+# 
+# feed 3h http://www.noellehuskins.com/?feed=atom
+#     define_name     Noelle Huskins
+#     define_blogurl  http://www.noellehuskins.com/?page_id=10
+# 
+# feed 3h http://bridgetononprofit.blogspot.com/feeds/posts/default
+#     define_name     Shubda Garani
+#     define_orgname  Bridges to the non-profit world
+#     define_blogurl  http://bridgetononprofit.blogspot.com/
+# 
+# feed 3h http://operationshanti.blogspot.com/feeds/posts/default
+#     define_name     Operation Shanti
+#     define_blogurl  http://operationshanti.blogspot.com/
+#     define_face         /hackergotchi/operation-shanti.jpg
+#     define_faceurl      http://www.operation-shanti.org
 
 feed 3h http://ngoreviews.blogspot.com/feeds/posts/default
     define_name     Saberi Roy
