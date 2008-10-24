@@ -1,0 +1,9 @@
+# to generate the summary of posts, override the summary template
+
+plugindirs none
+daysections false
+
+template opml/template
+define feeditemtemplate opml/feeditemtemplate
+outputfile  ../public_html/opml.xml
+
