@@ -164,6 +164,9 @@ def detail_to_html(details, inline, config, force_preformatted = False):
 	else:
 		html = detail["value"]
 
+	if config["defines"].has_key("feedoutput") and config["defines"]["feedoutput"]:
+		html = cgi.escape(html)
+
 	return sanitise_html(html, detail["base"], inline, config)
 
 def author_to_html(entry, feedurl, config):

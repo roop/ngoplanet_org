@@ -2,6 +2,7 @@
 
 plugindirs none
 daysections false
+define feedoutput true
 
 template rss/template
 itemtemplate rss/itemtemplate
