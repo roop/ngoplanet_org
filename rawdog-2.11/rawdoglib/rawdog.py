@@ -1297,15 +1297,30 @@ __description__
 </tr>"""
 		feeds = self.feeds.values()
 		feeds.sort(lambda a, b: cmp(a.get_html_name(config).lower(), b.get_html_name(config).lower()))
+		feeditems = ""
 		for feed in feeds:
+			feeditembits = { "version" : VERSION }
+			feeditembits["feed_title"] = feed.get_html_link(config)
+			feeditembits["feed_title_no_link"] = detail_to_html(feed.feed_info.get("title_detail"), True, config)
+			feeditembits["feed_url"] = cgi.escape(feed.url)
+			feeditembits["last_update"] = format_time(feed.last_update, config)
+			feeditembits["next_update"] = format_time(feed.last_update + feed.period, config)
+			feeditembits["feed_id"] = feed.get_id(config)
+			for name, value in feed.args.items():
+				if name.startswith("define_"):
+					feeditembits[name[7:]] = value
 			print >>f, '<tr class="feedsrow">'
-			print >>f, '<td>' + feed.get_html_link(config) + '</td>'
-			print >>f, '<td><a class="xmlbutton" href="' + cgi.escape(feed.url) + '">XML</a></td>'
-			print >>f, '<td>' + format_time(feed.last_update, config) + '</td>'
-			print >>f, '<td>' + format_time(feed.last_update + feed.period, config) + '</td>'
+			print >>f, '<td>' + feeditembits["feed_title"] + '</td>'
+			print >>f, '<td><a class="xmlbutton" href="' + feeditembits["feed_url"] + '">XML</a></td>'
+			print >>f, '<td>' + feeditembits["last_update"] + '</td>'
+			print >>f, '<td>' + feeditembits["next_update"] + '</td>'
 			print >>f, '</tr>'
+			if config["defines"].has_key("feeditemtemplate"):
+				feeditems += fill_template(load_file(config["defines"]["feeditemtemplate"]), feeditembits)
 		print >>f, """</table>"""
 		bits["feeds"] = f.getvalue()
+		bits["feeditems"] = feeditems
+
 		bits["num_feeds"] = str(len(feeds))
 
 		return bits

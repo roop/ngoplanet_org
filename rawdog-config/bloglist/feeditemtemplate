@@ -1,0 +1,23 @@
+<tr class="feedsrow">
+<td><a href="__blogurl__">__name__</a></td>
+<td> <a class="xmlbutton" href="__feed_url__">XML</a> </td>
+<td> __last_update__ </td>
+<td> __next_update__ </td>
+<td>
+        __if_face__
+           __if_faceurl__
+               <a href="__faceurl__">
+           __endif__
+           __if_faceheight__
+              __if_facewidth__
+                 <img class="face" src="__face__" width="__facewidth__" height="__faceheight__" align="left" alt="__name__" /> 
+              __else__
+                 <img class="face" src="__face__" height="__faceheight__" align="left" alt="__name__" /> 
+              __endif__
+           __else__
+              <img class="face" src="__face__" align="left" alt="__name__" />
+           __endif__
+           __if_faceurl__
+               </a>
+</td>
+</tr>

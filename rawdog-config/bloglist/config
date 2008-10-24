@@ -4,5 +4,6 @@ plugindirs none
 daysections false
 
 template bloglist/template
+define feeditemtemplate bloglist/feeditemtemplate
 outputfile  ../public_html/bloglist.html
 

@@ -266,12 +266,12 @@ changeconfig true
 #     define_name     Shubda Garani
 #     define_orgname  Bridges to the non-profit world
 #     define_blogurl  http://bridgetononprofit.blogspot.com/
-# 
-# feed 3h http://operationshanti.blogspot.com/feeds/posts/default
-#     define_name     Operation Shanti
-#     define_blogurl  http://operationshanti.blogspot.com/
-#     define_face         /hackergotchi/operation-shanti.jpg
-#     define_faceurl      http://www.operation-shanti.org
+
+feed 3h http://operationshanti.blogspot.com/feeds/posts/default
+    define_name     Operation Shanti
+    define_blogurl  http://operationshanti.blogspot.com/
+    define_face         /hackergotchi/operation-shanti.jpg
+    define_faceurl      http://www.operation-shanti.org
 
 feed 3h http://ngoreviews.blogspot.com/feeds/posts/default
     define_name     Saberi Roy
