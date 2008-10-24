@@ -1,4 +1,14 @@
 Repo for ngoplanet.org
 
+ngoplanet.org is a web-aggregator for blogs about NGOs (non-governmental orgs) 
+or NGO workers. It uses rawdog to periodically fetch the feeds and write out
+the pages of the website.
+
+rawdog-2.11/        - rawdog code - includes modifications done for this site
+rawdog-config/      - config files for running rawdog
+cronjobs/           - scripts to cron rawdog periodically
+public_html/        - the website - rawdog outputs to some paths here
+svg/                - svg source for images used in the site
+
 Domain managed by name.com
 Hosted with wanttohost.com
