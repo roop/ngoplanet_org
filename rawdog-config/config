@@ -18,7 +18,7 @@ plugindirs none
 
 # The maximum number of articles to show on the generated page.
 # Set this to 0 for no limit.
-maxarticles 50
+maxarticles 100
 
 # The maximum age of articles to show on the generated page.
 # Set this to 0 for no limit.
@@ -27,7 +27,7 @@ maxage 7d
 # The age after which articles will be discarded if they do not appear
 # in a feed. Set this to a larger value if you want your rawdog output
 # to cover more than a day's worth of articles.
-expireage 1d
+expireage 7d
 
 # The minimum number of articles from each feed to keep around in the history.
 # Set this to 0 to only keep articles that were returned the last time the feed
@@ -200,7 +200,7 @@ hideduplicates id
 
 # The period to use for new feeds added to the config file via the -a|--add
 # option.
-newfeedperiod 3h
+newfeedperiod 1h
 
 # Whether rawdog should automatically update this config file (and its
 # internal state) if feed URLs change (for instance, if a feed URL
@@ -250,39 +250,34 @@ changeconfig true
 #feed 3h http://proxyfeed.example.com/proxied.rss http_proxy=http://localhost:1234/
 #feed 3h http://dupsfeed.example.com/duplicated.rss allowduplicates=true
 
-# feed 3h http://blog.payir.org/feeds/posts/default
-#     define_name     Senthil
-#     define_orgname  Payir
-#     define_blogurl  http://blog.payir.org
-#     define_face         /hackergotchi/payir.jpg
-#     define_faceheight   100
-#     define_faceurl      http://www.payir.prg
-# 
-# feed 3h http://www.noellehuskins.com/?feed=atom
-#     define_name     Noelle Huskins
-#     define_blogurl  http://www.noellehuskins.com/?page_id=10
-# 
-# feed 3h http://bridgetononprofit.blogspot.com/feeds/posts/default
-#     define_name     Shubda Garani
-#     define_orgname  Bridges to the non-profit world
-#     define_blogurl  http://bridgetononprofit.blogspot.com/
+feed 1h http://blog.payir.org/feeds/posts/default
+    define_name     Senthil
+    define_orgname  Payir
+    define_blogurl  http://blog.payir.org
+    define_face         /hackergotchi/payir.jpg
+    define_faceheight   100
+    define_faceurl      http://www.payir.prg
 
-feed 3h http://operationshanti.blogspot.com/feeds/posts/default
+feed 1h http://bridgetononprofit.blogspot.com/feeds/posts/default
+    define_name     Shubda Garani
+    define_orgname  Bridges to the non-profit world
+    define_blogurl  http://bridgetononprofit.blogspot.com/
+
+feed 1h http://operationshanti.blogspot.com/feeds/posts/default
     define_name     Operation Shanti
     define_blogurl  http://operationshanti.blogspot.com/
     define_face         /hackergotchi/operation-shanti.jpg
     define_faceurl      http://www.operation-shanti.org
 
-feed 3h http://ngoreviews.blogspot.com/feeds/posts/default
+feed 1h http://ngoreviews.blogspot.com/feeds/posts/default
     define_name     Saberi Roy
     define_orgname  NGO Reviews
     define_blogurl  http://ngoreviews.blogspot.com/
     define_face         /hackergotchi/saberiroy.jpg
     define_faceheight   70
 
-feed 3h http://aifde.blogspot.com/feeds/posts/default
+feed 1h http://aifde.blogspot.com/feeds/posts/default
     define_name     DElight
     define_blogurl  http://aifde.blogspot.com/
-
 
 
