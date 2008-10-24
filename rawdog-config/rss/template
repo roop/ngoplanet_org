@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NGO Planet</title>
+    <link>http://ngoplanet.org/</link>
+    <language>en</language>
+    <description>NGO Planet - http://ngoplanet.org/</description>
+    <atom:link href="http://ngoplanet.org/rss20.xml" rel="self" type="application/rss+xml"/>
+
+__items__
+
+  </channel>
+</rss>

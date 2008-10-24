@@ -1,0 +1,9 @@
+# to generate the rss feed, override the template and the itemtemplate
+
+plugindirs none
+daysections false
+
+template rss/template
+itemtemplate rss/itemtemplate
+outputfile  ../public_html/rss20.xml
+
