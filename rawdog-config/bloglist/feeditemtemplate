@@ -1,8 +1,8 @@
 <tr class="feedsrow">
 <td><a href="__blogurl__">__name__</a></td>
 <td> <a class="xmlbutton" href="__feed_url__">XML</a> </td>
-<td> __last_update__ </td>
-<td> __next_update__ </td>
+<td> __last_update__ IST</td>
+<td> __next_update__ IST</td>
 <td>
         __if_face__
            __if_faceurl__

@@ -1014,7 +1014,10 @@ class Rawdog(Persistable):
 		"""Perform the update action: check feeds for new articles, and
 		expire old ones."""
 		config.log("Starting update")
-		now = time.time()
+		timeoffsetseconds = 0
+		if config["defines"].has_key("timeoffset"):
+			timeoffsetseconds = parse_time(config["defines"]["timeoffset"])
+		now = time.time() + timeoffsetseconds
 
 		feedparser._FeedParserMixin.can_contain_relative_uris = ["url"]
 		feedparser._FeedParserMixin.can_contain_dangerous_markup = []
@@ -1359,7 +1362,10 @@ __description__
 		"""Perform the write action: write articles to the output
 		file."""
 		config.log("Starting write")
-		now = time.time()
+		timeoffsetseconds = 0
+		if config["defines"].has_key("timeoffset"):
+			timeoffsetseconds = parse_time(config["defines"]["timeoffset"])
+		now = time.time() + timeoffsetseconds
 
 		article_dates = {}
 		articles = self.articles.values()
