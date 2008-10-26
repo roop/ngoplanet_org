@@ -260,7 +260,7 @@ feed 1h http://blog.payir.org/feeds/posts/default
     define_blogurl  http://blog.payir.org
     define_face         /hackergotchi/payir.jpg
     define_faceheight   100
-    define_faceurl      http://www.payir.prg
+    define_faceurl      http://www.payir.org
 
 feed 1h http://bridgetononprofit.blogspot.com/feeds/posts/default
     define_name     Shubda Garani
