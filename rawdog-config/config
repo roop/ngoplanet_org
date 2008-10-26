@@ -185,7 +185,7 @@ tidyhtml false
 # displaying several feeds and want new articles to appear in the right
 # chronological place). If this is false, then articles will first be
 # sorted by the time that rawdog first saw them.
-sortbyfeeddate false
+sortbyfeeddate true
 
 # The fields to use when detecting duplicate articles: "id" is the article's
 # unique ID or GUID; "link" is the article's link. rawdog will find the first
