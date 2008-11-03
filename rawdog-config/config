@@ -284,4 +284,11 @@ feed 1h http://aifde.blogspot.com/feeds/posts/default
     define_name     DElight
     define_blogurl  http://aifde.blogspot.com/
 
+feed 1h http://web.me.com/gtirthapura/Site/On_Non-profits/rss.xml
+    define_name     Gayathri Tirthapura
+    define_blogurl  http://web.me.com/gtirthapura/Site/On_Non-profits/On_Non-profits.html
+
+feed 1h http://web.me.com/gtirthapura/Site/Reflections_on_Education/rss.xml
+    define_name     Gayathri Tirthapura
+    define_blogurl  http://web.me.com/gtirthapura/Site/Reflections_on_Education/Reflections_on_Education.html
 
