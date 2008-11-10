@@ -22,12 +22,12 @@ maxarticles 100
 
 # The maximum age of articles to show on the generated page.
 # Set this to 0 for no limit.
-maxage 7d
+maxage 14d
 
 # The age after which articles will be discarded if they do not appear
 # in a feed. Set this to a larger value if you want your rawdog output
 # to cover more than a day's worth of articles.
-expireage 7d
+expireage 14d
 
 # The minimum number of articles from each feed to keep around in the history.
 # Set this to 0 to only keep articles that were returned the last time the feed
