@@ -292,3 +292,10 @@ feed 1h http://web.me.com/gtirthapura/Site/Reflections_on_Education/rss.xml
     define_name     Gayathri Tirthapura
     define_blogurl  http://web.me.com/gtirthapura/Site/Reflections_on_Education/Reflections_on_Education.html
 
+feed 1h http://thulir.wordpress.com/feed/
+    define_name Anu and Krishna
+    define_blogurl http://thulir.wordpress.com/
+    define_orgname Thulir
+    define_face         /hackergotchi/thulir.png
+    define_faceurl      http://www.thulir.org/
+
