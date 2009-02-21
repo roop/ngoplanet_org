@@ -1,7 +1,7 @@
     <item>
-      <guid isPermaLink="false">__guid__</guid>
-      <title>__name__: __title_no_link__</title>
-      <pubDate>__date__</pubDate>
-      <link>__url__</link>
-      <description>__description__</description>
+      __if_guid__<guid isPermaLink="false">__guid__</guid>__endif__
+      __if_title_no_link__<title>__name__: __title_no_link__</title>__endif__
+      __if_date__<pubDate>__date__</pubDate>__endif__
+      __if_url__<link>__url__></link>__endif__
+      __if_description__<description>__description__></description>__endif__
     </item>
