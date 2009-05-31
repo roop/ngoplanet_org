@@ -1259,7 +1259,10 @@ __description__
 		dup_count = 0
 		for article in articles:
 			feed = self.feeds[article.feed]
-			age = now - article.added
+			if config["sortbyfeeddate"]:
+				age = now - (article.date or article.added)
+			else:
+				age = article.added
 
 			maxage = config["maxage"]
 			if "maxage" in feed.args:
