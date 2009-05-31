@@ -27,7 +27,7 @@
 				__description__
 			</div>
 			<p class="date">
-				posted <a href="__url__"><b>__date__</b></a> by <b>__name__</b>
+				posted <a href="__url__"><b>__date__</b></a> by <b>__author__</b>
 			</p>
 		</div>
 	</div>
