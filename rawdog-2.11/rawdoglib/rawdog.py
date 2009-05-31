@@ -1224,6 +1224,22 @@ __description__
 		else:
 			itembits["author"] = ""
 
+		author_name = entry_info.get("author_detail")["name"];
+		if author_name is not None:
+			itembits["author_name"] = author_name
+		else:
+			itembits["author_name"] = ""
+		author_email = entry_info.get("author_detail")["email"];
+		if author_email is not None:
+			itembits["author_email"] = author_email
+		else:
+			itembits["author_email"] = ""
+		author_url = entry_info.get("author_detail")["url"];
+		if author_url is not None:
+			itembits["author_url"] = author_url
+		else:
+			itembits["author_url"] = ""
+
 		itembits["added"] = format_time(article.added, config)
 		if date is not None:
 			itembits["date"] = format_time(date, config)
