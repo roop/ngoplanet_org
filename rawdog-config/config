@@ -255,8 +255,7 @@ define timeoffset 630m
 #feed 3h http://dupsfeed.example.com/duplicated.rss allowduplicates=true
 
 feed 1h http://blog.payir.org/feeds/posts/default
-    define_name     Senthil
-    define_orgname  Payir
+    define_name     Payir
     define_blogurl  http://blog.payir.org
     define_face         /hackergotchi/payir.jpg
     define_faceheight   100
