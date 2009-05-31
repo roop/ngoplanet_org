@@ -602,6 +602,8 @@ def parse_feed_args(argparams, arglines):
 		args[as[0]] = as[1]
 	if "maxage" in args:
 		args["maxage"] = parse_time(args["maxage"])
+	if "minage" in args:
+		args["minage"] = parse_time(args["minage"])
 	return args
 
 class ConfigError(Exception): pass
@@ -623,6 +625,7 @@ class Config:
 			"outputfile" : "output.html",
 			"maxarticles" : 200,
 			"maxage" : 0,
+			"minage" : 0,
 			"expireage" : 24 * 60 * 60,
 			"keepmin" : 0,
 			"dayformat" : "%A, %d %B %Y",
@@ -717,6 +720,8 @@ class Config:
 			self["maxarticles"] = int(l[1])
 		elif l[0] == "maxage":
 			self["maxage"] = parse_time(l[1])
+		elif l[0] == "minage":
+			self["minage"] = parse_time(l[1])
 		elif l[0] == "expireage":
 			self["expireage"] = parse_time(l[1])
 		elif l[0] == "keepmin":
@@ -1268,6 +1273,12 @@ __description__
 			if "maxage" in feed.args:
 				maxage = feed.args["maxage"]
 			if maxage != 0 and age > maxage:
+				continue
+
+			minage = config["minage"]
+			if "minage" in feed.args:
+				minage = feed.args["minage"]
+			if minage != 0 and age < minage:
 				continue
 
 			entry_info = article.entry_info

@@ -1,0 +1,9 @@
+# to generate the older.html page
+
+minage 14d
+maxage 28d
+
+template older/template
+itemtemplate older/itemtemplate
+outputfile  ../public_html/older.html
+
