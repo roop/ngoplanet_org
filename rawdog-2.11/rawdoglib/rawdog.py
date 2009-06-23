@@ -1229,7 +1229,7 @@ __description__
 		else:
 			itembits["author"] = ""
 
-		author_detail = entry_info.get("author_detail")["name"];
+		author_detail = entry_info.get("author_detail");
 		if "name" in author_detail:
 			itembits["author_name"] = author_detail["name"]
 		else:
