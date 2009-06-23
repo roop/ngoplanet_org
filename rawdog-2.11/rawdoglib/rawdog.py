@@ -1229,19 +1229,17 @@ __description__
 		else:
 			itembits["author"] = ""
 
-		author_name = entry_info.get("author_detail")["name"];
-		if author_name is not None:
-			itembits["author_name"] = author_name
+		author_detail = entry_info.get("author_detail")["name"];
+		if "name" in author_detail:
+			itembits["author_name"] = author_detail["name"]
 		else:
 			itembits["author_name"] = ""
-		author_email = entry_info.get("author_detail")["email"];
-		if author_email is not None:
-			itembits["author_email"] = author_email
+		if "email" in author_detail:
+			itembits["author_email"] = author_detail["email"]
 		else:
 			itembits["author_email"] = ""
-		author_url = entry_info.get("author_detail")["url"];
-		if author_url is not None:
-			itembits["author_url"] = author_url
+		if "url" in author_detail:
+			itembits["author_url"] = author_detail["url"]
 		else:
 			itembits["author_url"] = ""
 
